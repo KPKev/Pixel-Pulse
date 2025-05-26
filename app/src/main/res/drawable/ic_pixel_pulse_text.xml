@@ -1,0 +1,66 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="40dp"
+    android:viewportWidth="200"
+    android:viewportHeight="40">
+    
+    <!-- Pixel Pulse text background -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M10,5L190,5A5,5 0,0 1,195 10L195,30A5,5 0,0 1,190 35L10,35A5,5 0,0 1,5 30L5,10A5,5 0,0 1,10 5z" />
+    
+    <!-- Text: PIXEL PULSE -->
+    <group>
+        <!-- P -->
+        <path
+            android:fillColor="@color/pixel_blue"
+            android:pathData="M15,12L15,28L17,28L17,21L20,21A3,3 0,0 0,23 18L23,15A3,3 0,0 0,20 12L15,12zM17,14L20,14A1,1 0,0 1,21 15L21,18A1,1 0,0 1,20 19L17,19L17,14z" />
+        
+        <!-- I -->
+        <path
+            android:fillColor="@color/pixel_blue"
+            android:pathData="M26,12L26,28L28,28L28,12L26,12z" />
+        
+        <!-- X -->
+        <path
+            android:fillColor="@color/pixel_blue"
+            android:pathData="M31,12L33,14.5L35,12L37,12L34,16L37,20L35,20L33,17.5L31,20L29,20L32,16L29,12L31,12z" />
+        
+        <!-- E -->
+        <path
+            android:fillColor="@color/pixel_blue"
+            android:pathData="M40,12L40,28L46,28L46,26L42,26L42,21L45,21L45,19L42,19L42,14L46,14L46,12L40,12z" />
+        
+        <!-- L -->
+        <path
+            android:fillColor="@color/pixel_blue"
+            android:pathData="M49,12L49,28L55,28L55,26L51,26L51,12L49,12z" />
+        
+        <!-- Space -->
+        
+        <!-- P -->
+        <path
+            android:fillColor="@color/pixel_green"
+            android:pathData="M65,12L65,28L67,28L67,21L70,21A3,3 0,0 0,73 18L73,15A3,3 0,0 0,70 12L65,12zM67,14L70,14A1,1 0,0 1,71 15L71,18A1,1 0,0 1,70 19L67,19L67,14z" />
+        
+        <!-- U -->
+        <path
+            android:fillColor="@color/pixel_green"
+            android:pathData="M76,12L76,24A2,2 0,0 0,78 26L80,26A2,2 0,0 0,82 24L82,12L84,12L84,24A4,4 0,0 1,80 28L78,28A4,4 0,0 1,74 24L74,12L76,12z" />
+        
+        <!-- L -->
+        <path
+            android:fillColor="@color/pixel_green"
+            android:pathData="M87,12L87,28L93,28L93,26L89,26L89,12L87,12z" />
+        
+        <!-- S -->
+        <path
+            android:fillColor="@color/pixel_green"
+            android:pathData="M96,12A4,4 0,0 1,100 16L100,17L98,17L98,16A2,2 0,0 0,96 14L96,14A2,2 0,0 0,94 16L94,18A2,2 0,0 0,96 20L98,20A4,4 0,0 1,102 24L102,24A4,4 0,0 1,98 28L96,28A4,4 0,0 1,92 24L92,23L94,23L94,24A2,2 0,0 0,96 26L98,26A2,2 0,0 0,100 24L100,22A2,2 0,0 0,98 20L96,20A4,4 0,0 1,92 16L92,16A4,4 0,0 1,96 12z" />
+        
+        <!-- E -->
+        <path
+            android:fillColor="@color/pixel_green"
+            android:pathData="M105,12L105,28L111,28L111,26L107,26L107,21L110,21L110,19L107,19L107,14L111,14L111,12L105,12z" />
+    </group>
+</vector> 

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Pixel Pulse</string>
+    <string name="app_description">AI-Powered Health Companion for Google Pixel 9 Pro XL</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_workouts">Workouts</string>
+    <string name="nav_nutrition">Nutrition</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_welcome">Good morning, %1$s!</string>
+    <string name="dashboard_subtitle">Ready to achieve your health goals today?</string>
+    <string name="ai_insights_title">AI Insights</string>
+    <string name="health_metrics_title">Today\'s Health Metrics</string>
+    <string name="quick_actions_title">Quick Actions</string>
+    <string name="todays_goals_title">Today\'s Goals</string>
+    <string name="recent_activities_title">Recent Activities</string>
+
+    <!-- Health Metrics -->
+    <string name="heart_rate">Heart Rate</string>
+    <string name="steps">Steps</string>
+    <string name="calories">Calories</string>
+    <string name="sleep">Sleep</string>
+    <string name="water">Water</string>
+    <string name="weight">Weight</string>
+
+    <!-- Units -->
+    <string name="unit_bpm">BPM</string>
+    <string name="unit_kcal">kcal</string>
+    <string name="unit_hours">h</string>
+    <string name="unit_ml">ml</string>
+    <string name="unit_kg">kg</string>
+    <string name="unit_cm">cm</string>
+    <string name="unit_grams">g</string>
+    <string name="unit_mg">mg</string>
+
+    <!-- Workouts -->
+    <string name="workout_title">Workouts</string>
+    <string name="ai_workout_recommendation">AI Workout Recommendation</string>
+    <string name="workout_recommendation_subtitle">Based on your fitness level and goals, here\'s today\'s recommended workout:</string>
+    <string name="start_workout">Start Workout</string>
+    <string name="quick_start">Quick Start</string>
+    <string name="recent_workouts">Recent Workouts</string>
+    <string name="workout_cardio">Cardio</string>
+    <string name="workout_strength">Strength</string>
+    <string name="workout_yoga">Yoga</string>
+    <string name="workout_hiit">HIIT</string>
+
+    <!-- Nutrition -->
+    <string name="nutrition_title">Nutrition</string>
+    <string name="todays_nutrition">Today\'s Nutrition</string>
+    <string name="ai_nutrition_insights">AI Nutrition Insights</string>
+    <string name="log_food">Log Food</string>
+    <string name="scan_food">Scan Food</string>
+    <string name="scan_barcode">Scan Barcode</string>
+    <string name="search_food">Search Food</string>
+    <string name="manual_entry">Manual Entry</string>
+    <string name="todays_meals">Today\'s Meals</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="snack">Snack</string>
+    <string name="protein">Protein</string>
+    <string name="carbs">Carbs</string>
+    <string name="fat">Fat</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Profile</string>
+    <string name="health_summary">Health Summary</string>
+    <string name="settings">Settings</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="personal_information_subtitle">Update your profile details</string>
+    <string name="notifications">Notifications</string>
+    <string name="notifications_subtitle">Manage your notification preferences</string>
+    <string name="privacy_security">Privacy &amp; Security</string>
+    <string name="privacy_security_subtitle">Control your data and privacy settings</string>
+    <string name="health_data">Health Data</string>
+    <string name="health_data_subtitle">Manage connected health services</string>
+    <string name="appearance">Appearance</string>
+    <string name="appearance_subtitle">Theme and display settings</string>
+    <string name="help_support">Help &amp; Support</string>
+    <string name="help_support_subtitle">Get help and contact support</string>
+    <string name="about">About</string>
+    <string name="about_subtitle">App version and information</string>
+    <string name="sign_out">Sign Out</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">Welcome to Pixel Pulse</string>
+    <string name="onboarding_welcome_description">Your AI-powered health companion designed specifically for Google Pixel 9 Pro XL</string>
+    <string name="onboarding_ai_title">AI Health Insights</string>
+    <string name="onboarding_ai_description">Get personalized recommendations powered by Google Gemini AI for workouts, nutrition, and wellness</string>
+    <string name="onboarding_monitoring_title">Smart Health Monitoring</string>
+    <string name="onboarding_monitoring_description">Track your vitals, activity, and nutrition with advanced sensor integration and real-time analysis</string>
+    <string name="onboarding_privacy_title">Privacy &amp; Security</string>
+    <string name="onboarding_privacy_description">Your health data is encrypted and secure. We follow HIPAA compliance standards to protect your privacy</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="get_started">Get Started</string>
+
+    <!-- Authentication -->
+    <string name="biometric_title">Authenticate to access Pixel Pulse</string>
+    <string name="biometric_subtitle">Use your biometric credential to access your health data</string>
+    <string name="biometric_cancel">Cancel</string>
+
+    <!-- Common Actions -->
+    <string name="add">Add</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="back">Back</string>
+    <string name="view_more">View More</string>
+    <string name="view_details">View Details</string>
+
+    <!-- Health Stats -->
+    <string name="average_heart_rate">Average Heart Rate</string>
+    <string name="daily_steps_average">Daily Steps Average</string>
+    <string name="average_sleep">Average Sleep</string>
+    <string name="daily_calories_burned">Daily Calories Burned</string>
+    <string name="age">Age</string>
+    <string name="height">Height</string>
+
+    <!-- Error Messages -->
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_permission">Permission required to access this feature.</string>
+    <string name="error_biometric">Biometric authentication failed.</string>
+
+    <!-- Success Messages -->
+    <string name="success_data_saved">Data saved successfully</string>
+    <string name="success_workout_completed">Workout completed!</string>
+    <string name="success_food_logged">Food logged successfully</string>
+
+    <!-- Permissions -->
+    <string name="permission_camera_title">Camera Permission</string>
+    <string name="permission_camera_message">Camera access is needed to scan food items and barcodes</string>
+    <string name="permission_location_title">Location Permission</string>
+    <string name="permission_location_message">Location access helps track outdoor activities and workouts</string>
+    <string name="permission_health_title">Health Data Permission</string>
+    <string name="permission_health_message">Health data access is needed to sync with Google Fit and Health Connect</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_profile_picture">Profile picture</string>
+    <string name="cd_heart_rate_icon">Heart rate icon</string>
+    <string name="cd_steps_icon">Steps icon</string>
+    <string name="cd_calories_icon">Calories icon</string>
+    <string name="cd_sleep_icon">Sleep icon</string>
+    <string name="cd_water_icon">Water icon</string>
+    <string name="cd_ai_insights_icon">AI insights icon</string>
+    <string name="cd_workout_icon">Workout icon</string>
+    <string name="cd_nutrition_icon">Nutrition icon</string>
+    <string name="cd_navigate_icon">Navigate icon</string>
+    <string name="cd_back_button">Back button</string>
+    <string name="cd_settings_button">Settings button</string>
+    <string name="cd_add_button">Add button</string>
+</resources> 

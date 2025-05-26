@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Google Pixel Brand Colors -->
+    <color name="pixel_blue">#4285F4</color>
+    <color name="pixel_blue_light">#70A7FF</color>
+    <color name="pixel_blue_dark">#1565C0</color>
+    
+    <color name="pixel_green">#34A853</color>
+    <color name="pixel_green_light">#81C784</color>
+    <color name="pixel_green_dark">#2E7D32</color>
+    
+    <color name="pixel_red">#EA4335</color>
+    <color name="pixel_red_light">#EF5350</color>
+    <color name="pixel_red_dark">#C62828</color>
+    
+    <color name="pixel_yellow">#FBBC04</color>
+    <color name="pixel_yellow_light">#FFF176</color>
+    <color name="pixel_yellow_dark">#F57F17</color>
+    
+    <!-- Basic Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    
+    <!-- Light Theme Colors -->
+    <color name="background_light">#FEFEFE</color>
+    <color name="on_background_light">#1C1B1F</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="on_surface_light">#1C1B1F</color>
+    <color name="surface_variant_light">#F4F4F4</color>
+    <color name="on_surface_variant_light">#49454F</color>
+    
+    <!-- Dark Theme Colors -->
+    <color name="background_dark">#121212</color>
+    <color name="on_background_dark">#E6E1E5</color>
+    <color name="surface_dark">#1E1E1E</color>
+    <color name="on_surface_dark">#E6E1E5</color>
+    <color name="surface_variant_dark">#2A2A2A</color>
+    <color name="on_surface_variant_dark">#CAC4D0</color>
+    
+    <!-- Health Metric Colors -->
+    <color name="heart_rate_color">#FF5722</color>
+    <color name="steps_color">#4CAF50</color>
+    <color name="calories_color">#FF9800</color>
+    <color name="sleep_color">#9C27B0</color>
+    <color name="water_color">#2196F3</color>
+    <color name="weight_color">#607D8B</color>
+    
+    <!-- Status Colors -->
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FF9800</color>
+    <color name="error">#F44336</color>
+    <color name="info">#2196F3</color>
+    
+    <!-- Chart Colors -->
+    <color name="chart_primary">#4285F4</color>
+    <color name="chart_secondary">#34A853</color>
+    <color name="chart_tertiary">#FBBC04</color>
+    <color name="chart_quaternary">#EA4335</color>
+    
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#4285F4</color>
+    <color name="gradient_end">#34A853</color>
+    
+    <!-- Card and Component Colors -->
+    <color name="card_background_light">#FFFFFF</color>
+    <color name="card_background_dark">#2A2A2A</color>
+    <color name="divider_light">#E0E0E0</color>
+    <color name="divider_dark">#424242</color>
+    
+    <!-- Button Colors -->
+    <color name="button_primary">#4285F4</color>
+    <color name="button_secondary">#F1F3F4</color>
+    <color name="button_text_primary">#FFFFFF</color>
+    <color name="button_text_secondary">#1C1B1F</color>
+</resources> 

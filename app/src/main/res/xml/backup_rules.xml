@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Include basic app settings -->
+    <include domain="sharedpref" path="user_preferences.xml"/>
+    <include domain="sharedpref" path="app_settings.xml"/>
+    
+    <!-- Exclude all sensitive health data -->
+    <exclude domain="database"/>
+    <exclude domain="file"/>
+    <exclude domain="external"/>
+    
+    <!-- Exclude authentication and security data -->
+    <exclude domain="sharedpref" path="auth_tokens.xml"/>
+    <exclude domain="sharedpref" path="biometric_settings.xml"/>
+    <exclude domain="sharedpref" path="api_config.xml"/>
+    
+    <!-- Exclude cache and temporary files -->
+    <exclude domain="cache"/>
+    <exclude domain="no_backup"/>
+</full-backup-content> 

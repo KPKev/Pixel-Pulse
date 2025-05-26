@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Internal storage for temporary camera captures -->
+    <files-path name="internal_files" path="." />
+    
+    <!-- Cache directory for temporary files -->
+    <cache-path name="cache_files" path="." />
+    
+    <!-- External cache for larger temporary files -->
+    <external-cache-path name="external_cache" path="." />
+    
+    <!-- Pictures directory for saved images -->
+    <external-files-path name="external_files" path="Pictures" />
+    
+    <!-- Food scanner images -->
+    <files-path name="food_images" path="food_scanner/" />
+    
+    <!-- Profile pictures -->
+    <files-path name="profile_images" path="profile/" />
+    
+    <!-- Workout images -->
+    <files-path name="workout_images" path="workouts/" />
+    
+    <!-- Exported data files -->
+    <files-path name="exports" path="exports/" />
+</paths> 

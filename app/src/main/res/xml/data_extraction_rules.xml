@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <!-- Exclude sensitive health data from device transfers -->
+    <cloud-backup>
+        <!-- Include user preferences but exclude sensitive data -->
+        <include domain="sharedpref" path="user_preferences.xml"/>
+        <include domain="sharedpref" path="app_settings.xml"/>
+        
+        <!-- Exclude all health data -->
+        <exclude domain="database" path="pixel_pulse_health.db"/>
+        <exclude domain="database" path="pixel_pulse_health.db-shm"/>
+        <exclude domain="database" path="pixel_pulse_health.db-wal"/>
+        
+        <!-- Exclude cached images and temporary files -->
+        <exclude domain="file" path="food_scanner/"/>
+        <exclude domain="file" path="profile/"/>
+        <exclude domain="file" path="workouts/"/>
+        <exclude domain="file" path="exports/"/>
+        
+        <!-- Exclude authentication tokens -->
+        <exclude domain="sharedpref" path="auth_tokens.xml"/>
+        <exclude domain="sharedpref" path="biometric_settings.xml"/>
+        
+        <!-- Exclude API keys and sensitive configuration -->
+        <exclude domain="sharedpref" path="api_config.xml"/>
+    </cloud-backup>
+    
+    <device-transfer>
+        <!-- Even more restrictive for device transfers -->
+        <include domain="sharedpref" path="user_preferences.xml"/>
+        
+        <!-- Exclude everything else -->
+        <exclude domain="database"/>
+        <exclude domain="file"/>
+        <exclude domain="sharedpref" path="auth_tokens.xml"/>
+        <exclude domain="sharedpref" path="biometric_settings.xml"/>
+        <exclude domain="sharedpref" path="api_config.xml"/>
+    </device-transfer>
+</data-extraction-rules> 
