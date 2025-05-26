@@ -49,7 +49,7 @@ android {
         }
         debug {
             isDebuggable = true
-            applicationIdSuffix = ".debug"
+            // Removed applicationIdSuffix to use same package name as release
             signingConfig = signingConfigs.getByName("debug")
         }
     }
